@@ -1,3 +1,4 @@
+```
 # Online Receptkönyv
 
 Az Online Receptkönyv egy interaktív weboldal, amely a felhasználóknak különféle recepteket kínál reggelire, ebédre és vacsorára. A felhasználók letölthetik a recepteket PDF formátumban, és visszajelzést is küldhetnek a receptekről.
@@ -43,3 +44,4 @@ Minden közreműködést szívesen fogadunk! Ha hibát talál, vagy javítani sz
 ## Licenc
 
 Ez a projekt MIT licenc alatt áll. A licenc teljes szövegéért lásd a `LICENSE` fájlt.
+```
