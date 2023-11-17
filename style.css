@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; /* Hozzáadott margin az egész oldalhoz */
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header, footer, h2 {
+    text-align: center; /* Középre igazítja a fejlécet, láblécet és h2 címeket */
+}
+
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Off-white background */
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Minimalistic Styling for Elements */
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p, li {
+    font-weight: 400;
+}
+
+.recept {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.recept img {
+    max-width: 60%; /* Set maximum width to 60% of the container */
+    height: auto;
+    border-radius: 8px;
+    display: block; /* Makes the image a block element */
+    margin: 0 auto 10px; /* Center the image and add margin at the bottom */
+}
+
+.centered-iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
